@@ -1,0 +1,38 @@
+.header{
+    height: 100px;
+    width:95%;
+    left: 2.5%;
+    right:2.5%;
+    background-color:  #FFD700;
+    position: absolute;
+    top:20px;
+    padding: 10px;
+   
+    border-radius: 30px;
+}
+.head_label{
+    font-size: 50px;
+    font-weight: 600;
+    color:#000075;
+}
+.cart_btn{
+    position: absolute;
+    top:20%;
+    font-size: 30px;
+    border-radius: 50%;
+    left:90%;
+}
+.cart_btn:hover{
+    color:#000075;
+    border-color:#000075;
+}
+.cart_size{
+    position: absolute;
+    left:90.5%;
+    top:54%;
+    border:0;
+    background-color: #000075;
+    color:#fff;
+    border-radius: 30%;
+    font-size: 20px;
+}

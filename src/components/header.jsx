@@ -4,7 +4,7 @@ let Header=({size,setClick})=>
 {
     return (
         <div className="header">
-            <label className="head_label">GSL Grocery Shop</label>
+            <label className="head_label">Grocery shop</label>
             <button className="cart_size">{size}</button>
             <button className="cart_btn" onClick={()=>setClick(true)}>
             <i className="fa fa-shopping-cart" aria-hidden="true"></i>
